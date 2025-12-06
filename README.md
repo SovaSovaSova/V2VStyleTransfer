@@ -23,10 +23,8 @@ This project implements video style transfer using AdaIN together with CCPL (Con
 ├── run_inference_demo.sh      # Single-style single-video demo
 ├── run_pipeline_all.sh        # Multi-style multi-video pipeline
 ├── requirements.txt           # Dependencies
-├── data/                      # Data folders
-├── checkpoints/               # Pretrained style transfer decoder weights (.pth)
-├── checkpoints_*/             # Style-specific training outputs (weights & visuals)
-└── outputs*/                  # Inference outputs
+├── results                    # v2v demo
+└── styles                     # style picture 
 ```
 
 ## Requirements & Setup
